@@ -7,6 +7,7 @@ public class FitnessEntryForm : MonoBehaviour
     public TMP_InputField dateField;
     public TMP_InputField stepsField;
     public TMP_InputField distanceField;
+    public TMP_InputField caloriesField;
     public FitnessUIManager uiManager;
 
     public void AddEntry()
@@ -15,7 +16,8 @@ public class FitnessEntryForm : MonoBehaviour
         {
             date = dateField.text,
             stepCount = int.Parse(stepsField.text),
-            distanceKm = float.Parse(distanceField.text)
+            distanceKm = float.Parse(distanceField.text),
+            calories = float.Parse(caloriesField.text)
         };
 
         FitnessManager.Instance.AddNewEntry(newEntry);
@@ -28,5 +30,6 @@ public class FitnessEntryForm : MonoBehaviour
         dateField.text = "";
         stepsField.text = "";
         distanceField.text = "";
+        caloriesField.text = "";
     }
 }

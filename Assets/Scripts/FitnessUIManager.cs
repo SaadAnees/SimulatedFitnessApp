@@ -30,9 +30,10 @@ public class FitnessUIManager : MonoBehaviour
             totalDistance += entry.distanceKm;
 
             GameObject card = Instantiate(dayCardPrefab, contentParent);
-            card.transform.Find("DateText").GetComponent<TextMeshProUGUI>().text = entry.date;
+            card.transform.Find("DateText").GetComponent<TextMeshProUGUI>().text = $"Date: {entry.date}";
             card.transform.Find("StepsText").GetComponent<TextMeshProUGUI>().text = $"Steps: {entry.stepCount}";
             card.transform.Find("DistanceText").GetComponent<TextMeshProUGUI>().text = $"Distance: {entry.distanceKm:F2} km";
+            card.transform.Find("CaloriesText").GetComponent<TextMeshProUGUI>().text = $"Kcal: {entry.calories:F1}";
         }
 
         int count = FitnessManager.Instance.fitnessDataList.dataList.Count;

@@ -6,6 +6,7 @@ public class FitnessData
     public string date;
     public int stepCount;
     public float distanceKm;
+    public float calories;
 }
 
 [System.Serializable]
