@@ -1,0 +1,14 @@
+{
+  "dataList": [
+    {
+      "date": "2025-04-07",
+      "stepCount": 8400,
+      "distanceKm": 6.2
+    },
+    {
+      "date": "2025-04-08",
+      "stepCount": 9100,
+      "distanceKm": 7.1
+    }
+  ]
+}
