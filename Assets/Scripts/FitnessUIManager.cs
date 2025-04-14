@@ -28,7 +28,7 @@ public class FitnessUIManager : MonoBehaviour
             card.GetComponent<FitnessDataUI>().dateText.text = $"Date: {entry.date}";
             card.GetComponent<FitnessDataUI>().stepText.text = $"Steps: {entry.stepCount}";
             card.GetComponent<FitnessDataUI>().distanceText.text = $"Distance: {entry.distanceKm:F2} km";
-            card.GetComponent<FitnessDataUI>().caloriesText.text = $"Kcal: {entry.calories:F1}";
+            card.GetComponent<FitnessDataUI>().caloriesText.text = $"Kcal: {entry.calories:F2}";
         }
 
         int count = FitnessManager.Instance.fitnessDataList.dataList.Count;

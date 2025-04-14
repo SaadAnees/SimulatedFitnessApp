@@ -4,43 +4,43 @@
       "date": "2025-04-07",
       "stepCount": 8400,
       "distanceKm": 6.2,
-      "kcal": 336
+      "calories": 336.99
     },
     {
       "date": "2025-04-08",
       "stepCount": 9100,
       "distanceKm": 7.1,
-      "kcal": 364
+      "calories": 364.5
     },
     {
       "date": "2025-04-09",
       "stepCount": 7200,
       "distanceKm": 5.3,
-      "kcal": 288
+      "calories": 288.9
     },
     {
       "date": "2025-04-10",
       "stepCount": 10000,
       "distanceKm": 7.8,
-      "kcal": 400
+      "calories": 400.6
     },
     {
       "date": "2025-04-11",
       "stepCount": 6600,
       "distanceKm": 5.0,
-      "kcal": 264
+      "calories": 264.0
     },
     {
       "date": "2025-04-12",
       "stepCount": 7800,
       "distanceKm": 6.0,
-      "kcal": 312
+      "calories": 312.8
     },
     {
       "date": "2025-04-13",
       "stepCount": 8900,
       "distanceKm": 7.0,
-      "kcal": 356
+      "calories": 356.3
     }
   ]
 }
